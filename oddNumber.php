@@ -16,7 +16,7 @@ function getOddNumber($srcValues) {
 	{
 		$tmp = $ind%2;
 		if($tmp <> 0)
-			echo '<hr>'.$num;
+			return $num;
 	}
 
 }
